@@ -1,0 +1,60 @@
+
+
+
+.input{
+  margin-top: 20px;
+     background-color: rgb(235, 238, 238);
+   
+   
+}
+
+.button{
+   border: 1px solid blue;
+   border-radius: 10%;
+   background-color: rgb(44, 44, 169);
+   color: aliceblue;
+   cursor: pointer;
+}
+
+.data{
+  margin-top: 30px;
+  padding: 30px;
+  }
+
+.countryName{
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: aliceblue;
+
+}
+.countryTemp{
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-size: 30px;
+  color: rgb(170, 215, 255);
+}
+.weather_descriptions{
+  margin-bottom: 40px;
+}
+.blocks{
+ 
+  font-size: 30px;
+  display: grid;
+  grid-template: repeat(2, 1fr)/ repeat(3,1fr);
+  gap: 5px;
+}
+
+
+.Icon{
+  width: 30px;
+  height: 30px;
+
+}
+
+.block{
+  border: 4px solid rgb(205, 205, 220);
+  border-radius: 10%;
+  background-color:  rgb(72, 112, 222);
+  font-size: 25px;
+  font-style: italic;
+}
